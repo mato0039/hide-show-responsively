@@ -48,6 +48,10 @@ img {
     flex-wrap: nowrap;
   }
 
+  .dino {
+    width: 100%;
+  }
+
   .dino:first-child {
     display: none;
   }
@@ -55,6 +59,10 @@ img {
 }
 
 @media only screen and (min-width: 60em) {
+
+  .dino {
+    width: 100%;
+  }
 
   .dino:first-child {
     display: inline-block;
